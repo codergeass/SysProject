@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="minisys_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="minisys_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328237766667fs"></ZoomStartTime>
+      <ZoomEndTime time="328341066668fs"></ZoomEndTime>
+      <Cursor1Time time="328298067000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="99" />
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/i_rstn" type="logic">
+      <obj_property name="ElementShortName">i_rstn</obj_property>
+      <obj_property name="ObjectShortName">i_rstn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/o_pc" type="array">
+      <obj_property name="ElementShortName">o_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/o_instr" type="array">
+      <obj_property name="ElementShortName">o_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/o_alu_res" type="array">
+      <obj_property name="ElementShortName">o_alu_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_alu_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/o_mem_data" type="array">
+      <obj_property name="ElementShortName">o_mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/o_reg_data" type="array">
+      <obj_property name="ElementShortName">o_reg_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_reg_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/MEM/i_interface_data" type="array">
+      <obj_property name="ElementShortName">i_interface_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_interface_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/o_data" type="array">
+      <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE_MEM/o_interface_write" type="logic">
+      <obj_property name="ElementShortName">o_interface_write</obj_property>
+      <obj_property name="ObjectShortName">o_interface_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE_MEM/o_interface_read" type="logic">
+      <obj_property name="ElementShortName">o_interface_read</obj_property>
+      <obj_property name="ObjectShortName">o_interface_read</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/digit_cs" type="logic">
+      <obj_property name="ElementShortName">digit_cs</obj_property>
+      <obj_property name="ObjectShortName">digit_cs</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/digit_re" type="logic">
+      <obj_property name="ElementShortName">digit_re</obj_property>
+      <obj_property name="ObjectShortName">digit_re</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/i_re" type="logic">
+      <obj_property name="ElementShortName">i_re</obj_property>
+      <obj_property name="ObjectShortName">i_re</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE_MEM/o_interface_read" type="logic">
+      <obj_property name="ElementShortName">o_interface_read</obj_property>
+      <obj_property name="ObjectShortName">o_interface_read</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE_MEM/is_interface" type="logic">
+      <obj_property name="ElementShortName">is_interface</obj_property>
+      <obj_property name="ObjectShortName">is_interface</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE_MEM/o_interface_write" type="logic">
+      <obj_property name="ElementShortName">o_interface_write</obj_property>
+      <obj_property name="ObjectShortName">o_interface_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/i_data" type="array">
+      <obj_property name="ElementShortName">i_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/interface_addr" type="array">
+      <obj_property name="ElementShortName">interface_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">interface_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/i_re" type="logic">
+      <obj_property name="ElementShortName">i_re</obj_property>
+      <obj_property name="ObjectShortName">i_re</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/i_op" type="array">
+      <obj_property name="ElementShortName">i_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/lo_data" type="array">
+      <obj_property name="ElementShortName">lo_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lo_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/hi_data" type="array">
+      <obj_property name="ElementShortName">hi_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/way_data" type="array">
+      <obj_property name="ElementShortName">way_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">way_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/DIGIT_CTRL/o_data" type="array">
+      <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/keypad_data" type="array">
+      <obj_property name="ElementShortName">keypad_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">keypad_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/timer_data" type="array">
+      <obj_property name="ElementShortName">timer_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/pwm_data" type="array">
+      <obj_property name="ElementShortName">pwm_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/switch_data" type="array">
+      <obj_property name="ElementShortName">switch_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switch_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/o_ir" type="logic">
+      <obj_property name="ElementShortName">o_ir</obj_property>
+      <obj_property name="ObjectShortName">o_ir</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT0/status" type="array">
+      <obj_property name="ElementShortName">status[15:0]</obj_property>
+      <obj_property name="ObjectShortName">status[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT0/ini_val" type="array">
+      <obj_property name="ElementShortName">ini_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ini_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT0/now_val" type="array">
+      <obj_property name="ElementShortName">now_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">now_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/o_out0" type="logic">
+      <obj_property name="ElementShortName">o_out0</obj_property>
+      <obj_property name="ObjectShortName">o_out0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT1/status" type="array">
+      <obj_property name="ElementShortName">status[15:0]</obj_property>
+      <obj_property name="ObjectShortName">status[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT1/ini_val" type="array">
+      <obj_property name="ElementShortName">ini_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ini_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/CNT1/now_val" type="array">
+      <obj_property name="ElementShortName">now_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">now_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/TIMER/o_out1" type="logic">
+      <obj_property name="ElementShortName">o_out1</obj_property>
+      <obj_property name="ObjectShortName">o_out1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_j" type="logic">
+      <obj_property name="ElementShortName">i_j</obj_property>
+      <obj_property name="ObjectShortName">i_j</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_beq" type="logic">
+      <obj_property name="ElementShortName">i_beq</obj_property>
+      <obj_property name="ObjectShortName">i_beq</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_bne" type="logic">
+      <obj_property name="ElementShortName">i_bne</obj_property>
+      <obj_property name="ObjectShortName">i_bne</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_bgtz" type="logic">
+      <obj_property name="ElementShortName">i_bgtz</obj_property>
+      <obj_property name="ObjectShortName">i_bgtz</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/i_col" type="array">
+      <obj_property name="ElementShortName">i_col[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_col[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/o_row" type="array">
+      <obj_property name="ElementShortName">o_row[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_row[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/key_data" type="array">
+      <obj_property name="ElementShortName">key_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">key_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/key_sta" type="array">
+      <obj_property name="ElementShortName">key_sta[15:0]</obj_property>
+      <obj_property name="ObjectShortName">key_sta[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/key_down" type="logic">
+      <obj_property name="ElementShortName">key_down</obj_property>
+      <obj_property name="ObjectShortName">key_down</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/ir" type="logic">
+      <obj_property name="ElementShortName">ir</obj_property>
+      <obj_property name="ObjectShortName">ir</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/key_val" type="array">
+      <obj_property name="ElementShortName">key_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">key_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/i_col" type="array">
+      <obj_property name="ElementShortName">i_col[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_col[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/o_ir" type="logic">
+      <obj_property name="ElementShortName">o_ir</obj_property>
+      <obj_property name="ObjectShortName">o_ir</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/o_key_down" type="logic">
+      <obj_property name="ElementShortName">o_key_down</obj_property>
+      <obj_property name="ObjectShortName">o_key_down</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/o_row" type="array">
+      <obj_property name="ElementShortName">o_row[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_row[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/o_key_val" type="array">
+      <obj_property name="ElementShortName">o_key_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_key_val[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/KEYPAD_CTRL/KEY_SCAN/i_scanclk" type="logic">
+      <obj_property name="ElementShortName">i_scanclk</obj_property>
+      <obj_property name="ObjectShortName">i_scanclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/INT_CTRL/i_int_source" type="array">
+      <obj_property name="ElementShortName">i_int_source[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i_int_source[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/INT_CTRL/o_inta0" type="logic">
+      <obj_property name="ElementShortName">o_inta0</obj_property>
+      <obj_property name="ObjectShortName">o_inta0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/INT_CTRL/o_inta1" type="logic">
+      <obj_property name="ElementShortName">o_inta1</obj_property>
+      <obj_property name="ObjectShortName">o_inta1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/i_interrupt_request" type="logic">
+      <obj_property name="ElementShortName">i_interrupt_request</obj_property>
+      <obj_property name="ObjectShortName">i_interrupt_request</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/interrupt_request" type="logic">
+      <obj_property name="ElementShortName">interrupt_request</obj_property>
+      <obj_property name="ObjectShortName">interrupt_request</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/i_interrupt_source" type="array">
+      <obj_property name="ElementShortName">i_interrupt_source[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i_interrupt_source[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/o_interrupt_source" type="array">
+      <obj_property name="ElementShortName">o_interrupt_source[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_source[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/i_mtc0" type="logic">
+      <obj_property name="ElementShortName">i_mtc0</obj_property>
+      <obj_property name="ObjectShortName">i_mtc0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/i_mfc0" type="logic">
+      <obj_property name="ElementShortName">i_mfc0</obj_property>
+      <obj_property name="ObjectShortName">i_mfc0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/status_we" type="logic">
+      <obj_property name="ElementShortName">status_we</obj_property>
+      <obj_property name="ObjectShortName">status_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/cause_we" type="logic">
+      <obj_property name="ElementShortName">cause_we</obj_property>
+      <obj_property name="ObjectShortName">cause_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/epc_we" type="logic">
+      <obj_property name="ElementShortName">epc_we</obj_property>
+      <obj_property name="ObjectShortName">epc_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/epc" type="array">
+      <obj_property name="ElementShortName">epc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/cause" type="array">
+      <obj_property name="ElementShortName">cause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/exc_code" type="array">
+      <obj_property name="ElementShortName">exc_code[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exc_code[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/ip" type="array">
+      <obj_property name="ElementShortName">ip[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/CP0/im" type="array">
+      <obj_property name="ElementShortName">im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">im[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/PIPE_CU/o_forward_src_op1" type="array">
+      <obj_property name="ElementShortName">o_forward_src_op1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_forward_src_op1[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/PIPE_CU/o_forward_src_op2" type="array">
+      <obj_property name="ElementShortName">o_forward_src_op2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_forward_src_op2[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/PIPE_CU/i_id_exe_reg_write" type="logic">
+      <obj_property name="ElementShortName">i_id_exe_reg_write</obj_property>
+      <obj_property name="ObjectShortName">i_id_exe_reg_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/PIPE_CU/i_id_exe_reg_dst" type="array">
+      <obj_property name="ElementShortName">i_id_exe_reg_dst[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_id_exe_reg_dst[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/src2_ctrl" type="array">
+      <obj_property name="ElementShortName">src2_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_ctrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/o_extend_op" type="logic">
+      <obj_property name="ElementShortName">o_extend_op</obj_property>
+      <obj_property name="ObjectShortName">o_extend_op</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID_EXE/o_extend_op" type="logic">
+      <obj_property name="ElementShortName">o_extend_op</obj_property>
+      <obj_property name="ObjectShortName">o_extend_op</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/i_extend_op" type="logic">
+      <obj_property name="ElementShortName">i_extend_op</obj_property>
+      <obj_property name="ObjectShortName">i_extend_op</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/i_alu_ctrl" type="array">
+      <obj_property name="ElementShortName">i_alu_ctrl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i_alu_ctrl[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/i_decode_src1" type="array">
+      <obj_property name="ElementShortName">i_decode_src1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_decode_src1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/i_decode_src2" type="array">
+      <obj_property name="ElementShortName">i_decode_src2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_decode_src2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/alu_src1" type="array">
+      <obj_property name="ElementShortName">alu_src1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/EXE/alu_src2" type="array">
+      <obj_property name="ElementShortName">alu_src2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_src1" type="array">
+      <obj_property name="ElementShortName">i_src1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_src1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/i_src2" type="array">
+      <obj_property name="ElementShortName">i_src2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_src2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/branch_pc" type="array">
+      <obj_property name="ElementShortName">branch_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/o_pc_src" type="array">
+      <obj_property name="ElementShortName">o_pc_src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pc_src[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/CPU/ID/NEXTPC/o_next_pc" type="array">
+      <obj_property name="ElementShortName">o_next_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_next_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/WATCHDOG/count" type="array">
+      <obj_property name="ElementShortName">count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">count[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/WATCHDOG/count_reset" type="array">
+      <obj_property name="ElementShortName">count_reset[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reset[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/WATCHDOG/o_reset" type="logic">
+      <obj_property name="ElementShortName">o_reset</obj_property>
+      <obj_property name="ObjectShortName">o_reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/PWM/o_out" type="logic">
+      <obj_property name="ElementShortName">o_out</obj_property>
+      <obj_property name="ObjectShortName">o_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/PWM/count" type="array">
+      <obj_property name="ElementShortName">count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">count[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/PWM/max_data" type="array">
+      <obj_property name="ElementShortName">max_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/minisys_sim/MINISYS_TEST/INTERFACE/PWM/ratio_data" type="array">
+      <obj_property name="ElementShortName">ratio_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ratio_data[15:0]</obj_property>
+   </wvobject>
+</wave_config>

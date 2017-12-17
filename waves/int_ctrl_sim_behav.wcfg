@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="int_ctrl_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="int_ctrl_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1951916666fs"></ZoomStartTime>
+      <ZoomEndTime time="2014016667fs"></ZoomEndTime>
+      <Cursor1Time time="2000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_rstn" type="logic">
+      <obj_property name="ElementShortName">i_rstn</obj_property>
+      <obj_property name="ObjectShortName">i_rstn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_inta" type="logic">
+      <obj_property name="ElementShortName">i_inta</obj_property>
+      <obj_property name="ObjectShortName">i_inta</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir0" type="logic">
+      <obj_property name="ElementShortName">i_ir0</obj_property>
+      <obj_property name="ObjectShortName">i_ir0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir1" type="logic">
+      <obj_property name="ElementShortName">i_ir1</obj_property>
+      <obj_property name="ObjectShortName">i_ir1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir2" type="logic">
+      <obj_property name="ElementShortName">i_ir2</obj_property>
+      <obj_property name="ObjectShortName">i_ir2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir3" type="logic">
+      <obj_property name="ElementShortName">i_ir3</obj_property>
+      <obj_property name="ObjectShortName">i_ir3</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir4" type="logic">
+      <obj_property name="ElementShortName">i_ir4</obj_property>
+      <obj_property name="ObjectShortName">i_ir4</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_ir5" type="logic">
+      <obj_property name="ElementShortName">i_ir5</obj_property>
+      <obj_property name="ObjectShortName">i_ir5</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/i_int_source" type="array">
+      <obj_property name="ElementShortName">i_int_source[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i_int_source[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta0" type="logic">
+      <obj_property name="ElementShortName">o_inta0</obj_property>
+      <obj_property name="ObjectShortName">o_inta0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta1" type="logic">
+      <obj_property name="ElementShortName">o_inta1</obj_property>
+      <obj_property name="ObjectShortName">o_inta1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta2" type="logic">
+      <obj_property name="ElementShortName">o_inta2</obj_property>
+      <obj_property name="ObjectShortName">o_inta2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta3" type="logic">
+      <obj_property name="ElementShortName">o_inta3</obj_property>
+      <obj_property name="ObjectShortName">o_inta3</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta4" type="logic">
+      <obj_property name="ElementShortName">o_inta4</obj_property>
+      <obj_property name="ObjectShortName">o_inta4</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_inta5" type="logic">
+      <obj_property name="ElementShortName">o_inta5</obj_property>
+      <obj_property name="ObjectShortName">o_inta5</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_intr" type="logic">
+      <obj_property name="ElementShortName">o_intr</obj_property>
+      <obj_property name="ObjectShortName">o_intr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/INT_CTRL_TEST/intr_reg" type="array">
+      <obj_property name="ElementShortName">intr_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">intr_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/int_ctrl_sim/o_int_source" type="array">
+      <obj_property name="ElementShortName">o_int_source[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_int_source[5:0]</obj_property>
+   </wvobject>
+</wave_config>

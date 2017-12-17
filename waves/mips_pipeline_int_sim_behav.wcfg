@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_pipeline_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_pipeline_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="131569999fs"></ZoomStartTime>
+      <ZoomEndTime time="235070000fs"></ZoomEndTime>
+      <Cursor1Time time="180570000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="23" />
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/i_rstn" type="logic">
+      <obj_property name="ElementShortName">i_rstn</obj_property>
+      <obj_property name="ObjectShortName">i_rstn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/i_interrupt_request" type="logic">
+      <obj_property name="ElementShortName">i_interrupt_request</obj_property>
+      <obj_property name="ObjectShortName">i_interrupt_request</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_interrupt_answer" type="logic">
+      <obj_property name="ElementShortName">o_interrupt_answer</obj_property>
+      <obj_property name="ObjectShortName">o_interrupt_answer</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_pc" type="array">
+      <obj_property name="ElementShortName">o_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_instr" type="array">
+      <obj_property name="ElementShortName">o_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_alu_res" type="array">
+      <obj_property name="ElementShortName">o_alu_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_alu_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_mem_data" type="array">
+      <obj_property name="ElementShortName">o_mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/o_reg_data" type="array">
+      <obj_property name="ElementShortName">o_reg_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_reg_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_unknown_command" type="logic">
+      <obj_property name="ElementShortName">i_unknown_command</obj_property>
+      <obj_property name="ObjectShortName">i_unknown_command</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_unknown_func" type="logic">
+      <obj_property name="ElementShortName">i_unknown_func</obj_property>
+      <obj_property name="ObjectShortName">i_unknown_func</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_syscall" type="logic">
+      <obj_property name="ElementShortName">i_syscall</obj_property>
+      <obj_property name="ObjectShortName">i_syscall</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_break" type="logic">
+      <obj_property name="ElementShortName">i_break</obj_property>
+      <obj_property name="ObjectShortName">i_break</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_eret" type="logic">
+      <obj_property name="ElementShortName">i_eret</obj_property>
+      <obj_property name="ObjectShortName">i_eret</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_mtc0" type="logic">
+      <obj_property name="ElementShortName">i_mtc0</obj_property>
+      <obj_property name="ObjectShortName">i_mtc0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_overflow" type="logic">
+      <obj_property name="ElementShortName">i_overflow</obj_property>
+      <obj_property name="ObjectShortName">i_overflow</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_if_pc" type="array">
+      <obj_property name="ElementShortName">i_if_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_if_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_if_id_pc" type="array">
+      <obj_property name="ElementShortName">i_if_id_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_if_id_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_id_exe_pc" type="array">
+      <obj_property name="ElementShortName">i_id_exe_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_id_exe_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/i_exe_mem_pc" type="array">
+      <obj_property name="ElementShortName">i_exe_mem_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_exe_mem_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/epc" type="array">
+      <obj_property name="ElementShortName">epc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/cause" type="array">
+      <obj_property name="ElementShortName">cause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_pipeline_sim/MIPS_PIPE_TEST/ID/CP0/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+</wave_config>
